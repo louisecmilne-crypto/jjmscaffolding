@@ -80,9 +80,9 @@ body {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 42% 58%;
     align-items: center;
-    min-height: 90vh;
+    gap: 40px;
 }
 
 .hero-content {
@@ -129,25 +129,41 @@ body {
 .hero-image::before {
     content: "";
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 200px;
-    height: 100%;
-    background:
-        linear-gradient(
-            to right,
-            #05070a 0%,
-            rgba(5,7,10,0.9) 30%,
-            rgba(5,7,10,0) 100%
-        );
+    inset: 0;
     z-index: 2;
+
+    background:
+        linear-gradient(to right,
+            #05070a 0%,
+            rgba(5,7,10,.85) 12%,
+            rgba(5,7,10,0) 35%
+        ),
+
+        linear-gradient(to left,
+            #05070a 0%,
+            rgba(5,7,10,.65) 8%,
+            rgba(5,7,10,0) 22%
+        ),
+
+        linear-gradient(to top,
+            #05070a 0%,
+            rgba(5,7,10,.5) 20%,
+            rgba(5,7,10,0) 40%
+        ),
+
+        linear-gradient(to bottom,
+            #05070a 0%,
+            rgba(5,7,10,.55) 12%,
+            rgba(5,7,10,0) 28%
+        );
 }
 
 .hero-image img {
     width: 100%;
-    height: 90vh;
+    height: 82vh;
     object-fit: cover;
-    display: block;
+    object-position: center;
+    border-radius: 12px;
 }
 
 /* TABLET */
@@ -197,10 +213,9 @@ body {
     }
 
     .hero h1 {
-        font-size: 2.8rem;
+        font-size: 2.35rem;
         line-height: 1.05;
     }
-
     .hero-buttons {
         flex-direction: column;
         align-items: center;
@@ -211,6 +226,10 @@ body {
         width: 100%;
         max-width: 320px;
         text-align: center;
+    }
+
+    .hero-content {
+        padding: 30px 24px 60px;
     }
 }
 
