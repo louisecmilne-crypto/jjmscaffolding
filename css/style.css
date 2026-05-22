@@ -134,6 +134,65 @@ body {
     transform: translateY(-3px);
 }
 
+/* TABLET HERO */
+@media (max-width: 1024px) {
+
+    .hero {
+        height: 80vh;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        padding: 140px 0 80px;
+    }
+
+    .hero-content {
+        max-width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+}
+
+/* MOBILE HERO */
+@media (max-width: 768px) {
+
+    .hero {
+        height: auto;
+        min-height: 85vh;
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+        padding: 140px 0 80px;
+    }
+
+    .hero-content {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+    }
+}
+
 /* SILVER DIVIDER */
 .section-divider {
     border-top: 1px solid #8b9097;
