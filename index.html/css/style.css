@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #05070a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(5, 7, 10, 0.95);
+    border-bottom: 1px solid #8a8f98;
+    z-index: 999;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #d5d7dc;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3b5ea7;
+}
+
+.nav-btn {
+    background: #1f3765;
+    color: white;
+    text-decoration: none;
+    padding: 14px 26px;
+    border-radius: 4px;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    height: 100vh;
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.85)
+    ),
+    url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-tag {
+    color: #3b5ea7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #c4c7ce;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.primary-btn,
+.secondary-btn {
+    text-decoration: none;
+    padding: 16px 32px;
+    border: 1px solid silver;
+    transition: .3s;
+}
+
+.primary-btn {
+    background: #1f3765;
+    color: white;
+}
+
+.secondary-btn {
+    color: white;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+    transform: translateY(-3px);
+}
+
+/* SILVER DIVIDER */
+.section-divider {
+    border-top: 1px solid #8b9097;
+    opacity: .3;
+}
+
+/* SECTION SPACING */
+section {
+    padding: 100px 0;
+}
+
+/* TRUST */
+.trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.trust-card {
+    border: 1px solid rgba(192,192,192,.2);
+    padding: 30px;
+    text-align: center;
+}
+
+/* ABOUT */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.section-header span {
+    color: #3b5ea7;
+    letter-spacing: 2px;
+}
+
+.section-header h2 {
+    font-size: 2.8rem;
+    margin: 15px 0 40px;
+}
+
+.about-text p {
+    margin-bottom: 25px;
+    color: #c5c9d1;
+}
+
+.about-image img {
+    width: 100%;
+    border: 1px solid silver;
+}
+
+/* SERVICES */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background: #0b1018;
+    border: 1px solid rgba(192,192,192,.15);
+    padding: 40px;
+    transition: .3s;
+}
+
+.service-card:hover {
+    border-color: silver;
+    transform: translateY(-5px);
+}
+
+/* PROJECTS */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid rgba(192,192,192,.2);
+}
+
+/* CTA */
+.cta-section {
+    background: linear-gradient(
+        to right,
+        #05070a,
+        #10192b
+    );
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #030406;
+    padding: 80px 0 30px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+footer h3,
+footer h4 {
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #d7dbe1;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid rgba(192,192,192,.2);
+    margin-top: 50px;
+    padding-top: 30px;
+    color: #8f96a3;
+}
+
+/* MOBILE */
+@media(max-width: 900px){
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .trust-grid,
+    .about-content,
+    .services-grid,
+    .gallery-grid,
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
