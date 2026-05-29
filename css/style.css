@@ -277,7 +277,7 @@ body {
 
     /* HERO IMAGE */
     .hero-image img {
-        height: 28vh;
+        height: 32vh;
         object-fit: cover;
         object-position: center;
     }
