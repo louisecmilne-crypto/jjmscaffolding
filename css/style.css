@@ -1030,6 +1030,11 @@ footer a {
     transform: scale(1.08);
 }
 
+.whatsapp-float img {
+    width: 34px;
+    height: 34px;
+}
+
 /* WHATSAPP QUOTE SECTION */
 
 .whatsapp-quote-box {
