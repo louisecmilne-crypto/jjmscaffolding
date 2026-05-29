@@ -325,6 +325,14 @@ body {
     margin-bottom: 14px;
 }
 
+    .feature-card,
+    .service-card,
+    .project-card {
+        border: 1px solid rgba(192,192,192,0.35);
+    }
+
+}
+
     /* HERO CONTENT */
 
     .hero-content {
