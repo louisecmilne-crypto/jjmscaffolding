@@ -673,6 +673,18 @@ section {
         #10192b
     );
     text-align: center;
+
+    .cta-content p {
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+    @media (max-width: 768px) {
+
+   .cta-content .primary-btn {
+    margin-top: 30px;
+    display: inline-block;  
+}
 }
 
 /* FOOTER */
@@ -795,5 +807,5 @@ footer a {
     font-size: 0.9rem;
     line-height: 1.5;
     padding: 0 15px;
-}
+    }
 }
