@@ -277,7 +277,7 @@ body {
 
     /* HERO IMAGE */
     .hero-image img {
-        height: 22vh;
+        height: 18vh;
         object-fit: cover;
         object-position: center;
     }
@@ -301,9 +301,10 @@ body {
     }
 
     /* HERO CONTENT */
+
     .hero-content {
-        padding: 28px 22px 25px;
-    }
+    padding: 22px 22px 15px;
+}
 
     .hero-tag {
         font-size: .78rem;
@@ -352,6 +353,10 @@ body {
 
     .feature-card {
         margin-bottom: 16px;
+    }
+
+    .features {
+    margin-top: -25px;
     }
 }
 
