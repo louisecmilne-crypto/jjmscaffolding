@@ -79,8 +79,8 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
-    border-top: 1px solid rgba(192,192,192,.15);
-    border-bottom: 1px solid rgba(192,192,192,.15);
+    border-top: 1px solid rgba(192,192,192,.30);
+    border-bottom: 1px solid rgba(192,192,192,.30);
 }
 
 .hero-grid {
@@ -266,7 +266,7 @@ body {
 /* FEATURE CARDS */
 .feature-card {
     background: rgba(10,10,15,0.8);
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.30);
     padding: 40px 30px;
     text-align: center;
     transition: all 0.3s ease;
@@ -404,7 +404,6 @@ body {
     line-height: 1.6;
     padding: 0 10px;
 }
-}
 
 /* TRUST ICONS */
 .trust-icon {
@@ -418,7 +417,7 @@ body {
 /* TRUST CARD HOVER */
 .trust-card {
     background: rgba(255,255,255,0.02);
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.30);
     border-radius: 12px;
     padding: 40px 30px;
 }
@@ -569,7 +568,7 @@ section {
 
 .service-card {
     background: #0b1018;
-    border: 1px solid rgba(192,192,192,.15);
+    border: 1px solid rgba(192,192,192,.30);
     padding: 40px;
     transition: .3s;
 }
