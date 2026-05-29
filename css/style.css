@@ -1057,8 +1057,10 @@ footer a {
 }
 
 .whatsapp-quote-btn {
-    display: inline-block;
-    background: #25D366;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: #223A74;
     color: white;
     padding: 16px 30px;
     border-radius: 10px;
@@ -1069,4 +1071,10 @@ footer a {
 
 .whatsapp-quote-btn:hover {
     transform: translateY(-2px);
+    background: #2b4a92;
+}
+
+.whatsapp-btn-icon {
+    width: 22px;
+    height: 22px;
 }
