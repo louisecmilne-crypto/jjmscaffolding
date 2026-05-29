@@ -883,9 +883,12 @@ footer a {
 }
 
 .quote-form {
-    background: rgba(10, 15, 30, 0.55);
-    backdrop-filter: blur(8px);
+    background: rgba(10, 15, 30, 0.65);
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 35px;
+    margin-top: -20px;
 }
 
 .contact-card h3 {
@@ -913,7 +916,7 @@ footer a {
 .quote-form select,
 .quote-form textarea {
     width: 100%;
-    background: rgba(255,255,255,0.03);
+    background: rgba(255,255,255,0.06);
     border: 1px solid rgba(255,255,255,0.08);
     color: white;
     padding: 18px;
@@ -998,8 +1001,16 @@ footer a {
 }
 
 .quote-form button {
-    margin-top: 20px;
-    width: 100%;
+    background: linear-gradient(135deg, #243c7a, #1d2f5f);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.quote-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(36, 60, 122, 0.25);
 }
 
 .quote-form select {
