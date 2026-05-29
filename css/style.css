@@ -378,6 +378,32 @@ body {
     }
 }
 
+/* TRUST ICONS */
+.trust-icon {
+    font-size: 2rem;
+    color: #3b5ea7;
+    margin-bottom: 20px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* TRUST CARD HOVER */
+.trust-card {
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.trust-card:hover {
+    transform: translateY(-8px);
+    border-color: #3b5ea7;
+    box-shadow: 0 15px 35px rgba(59,94,167,0.15);
+}
+
+.trust-card:hover .trust-icon {
+    transform: scale(1.1);
+}
+
 /* SILVER DIVIDER */
 .section-divider {
     border-top: 1px solid #8b9097;
