@@ -318,45 +318,44 @@ body {
 
     .trust-card {
     padding: 28px 22px;
-}
+    }
 
     .trust-icon {
     font-size: 1.8rem;
     margin-bottom: 14px;
-}
+    }
 
     .feature-card,
     .service-card,
     .project-card {
-        border: 1px solid rgba(192,192,192,0.35);
+        border: 1px solid rgba(192,192,192,0.55);
     }
-
-}
 
     /* HERO CONTENT */
 
-    @media (max-width: 768px) {
-
     .hero-content {
-        padding: 30px 22px 25px;
-    }
-
-    .hero h1 {
-        font-size: 2.2rem;
-        line-height: 1.05;
-    }
-
-    .hero p {
-        font-size: 1rem;
-        line-height: 1.7;
-    }
+    padding: 22px 22px 15px;
+}
 
     .hero-tag {
         font-size: .78rem;
         letter-spacing: 2px;
         margin-bottom: 14px;
-}
-    
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        line-height: 1.02;
+        margin-bottom: 18px;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        color: #c4c7ce;
+        line-height: 1.75;
+        margin-bottom: 24px;
+    }
+
     /* BUTTONS STACKED */
     .hero-buttons {
         flex-direction: column;
@@ -402,7 +401,8 @@ body {
     max-width: 100%;
     line-height: 1.6;
     padding: 0 10px;
-}
+    }
+}    
 
 /* TRUST ICONS */
 .trust-icon {
@@ -461,8 +461,7 @@ section {
 }
 
 .trust-card {
-    border: 1px solid rgba(192,192,192,.45);
-    box-shadow: 0 0 0 1px rgba(255,255,255,.04);
+    border: 1px solid rgba(192,192,192,.2);
     padding: 30px;
     text-align: center;
 }
@@ -536,7 +535,7 @@ section {
 }
 
 .project-content {
-    padding: 18px;
+    padding: 24px;
 }
 
 .project-content h3 {
@@ -569,7 +568,6 @@ section {
 .service-card {
     background: #0b1018;
     border: 1px solid rgba(192,192,192,.45);
-    box-shadow: 0 0 0 1px rgba(255,255,255,.04);
     padding: 40px;
     transition: .3s;
 }
@@ -617,8 +615,7 @@ section {
 
 .project-card {
     overflow: hidden;
-    border: 1px solid rgba(192,192,192,.45);
-    box-shadow: 0 0 0 1px rgba(255,255,255,.04);
+    border: 1px solid rgba(192,192,192,.2);
     transition: .3s ease;
 }
 
@@ -654,11 +651,10 @@ section {
     }
 
     .gallery-grid img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-    object-position: center;
-    background: #05070a;
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+        background: #05070a;
     }
 
     .projects-grid {
@@ -818,4 +814,4 @@ footer a {
     line-height: 1.5;
     padding: 0 15px;
     }
-}    
+}
