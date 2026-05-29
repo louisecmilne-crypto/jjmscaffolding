@@ -827,3 +827,60 @@ footer a {
     padding: 0 15px;
     }
 }
+
+/* CONTACT SECTION */
+
+.contact-section {
+    padding: 100px 0;
+    text-align: center;
+    border-top: 1px solid rgba(192,192,192,0.25);
+}
+
+.contact-section h2 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.contact-text {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #bdbdbd;
+    line-height: 1.8;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.contact-card {
+    background: rgba(10,10,15,0.8);
+    border: 1px solid rgba(192,192,192,0.45);
+    border-radius: 12px;
+    padding: 35px;
+}
+
+.contact-card h3 {
+    margin-bottom: 15px;
+}
+
+.contact-card a,
+.contact-card p {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .contact-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .contact-details {
+        grid-template-columns: 1fr;
+    }
+}
