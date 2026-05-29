@@ -425,7 +425,7 @@ body {
 .trust-card {
     background: rgba(255,255,255,0.02);
     border: 1px solid rgba(255,255,255,0.75);
-    box-shadow: 0 0 16px rgba(192,192,192,0.45);
+    box-shadow: 0 0 16px rgba(192,192,192,0.3);
     border-radius: 12px;
     padding: 40px 30px;
 }
@@ -580,7 +580,7 @@ section {
 .service-card {
     background: #0b1018;
     border: 1px solid rgba(255,255,255,.45);
-    box-shadow: 0 0 16px rgba(192,192,192,0.08);
+    box-shadow: 0 0 16px rgba(192,192,192,0.15);
     padding: 40px;
     transition: .3s;
 }
