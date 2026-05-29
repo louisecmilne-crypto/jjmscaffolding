@@ -263,6 +263,22 @@ body {
     }
 }
 
+/* FEATURE CARDS */
+.feature-card {
+    background: rgba(10,10,15,0.8);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    border-color: #3b5ea7;
+    box-shadow: 0 15px 40px rgba(59,94,167,0.15);
+}
+
 /* =========================
    MOBILE
 ========================= */
@@ -347,16 +363,9 @@ body {
     }
 
     /* FEATURE CARDS */
-    .features {
-        padding-top: 30px;
-    }
 
     .feature-card {
         margin-bottom: 16px;
-    }
-
-    .features {
-    margin-top: -25px;
     }
 
     .features {
