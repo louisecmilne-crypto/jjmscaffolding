@@ -1127,26 +1127,30 @@ footer a {
 .gallery-hero {
     position: relative;
     text-align: center;
-    padding: 140px 20px 90px;
+    padding: 140px 20px 100px;
     background:
-        linear-gradient(rgba(5,10,20,0.82),
-        rgba(5,10,20,0.88)),
-        url("../images/gallery/project1.jpg");
+        linear-gradient(
+            rgba(5,10,20,0.78),
+            rgba(5,10,20,0.88)
+        ),
+        url("../images/hero.jpg");
+
     background-size: cover;
     background-position: center;
     border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
 .gallery-hero h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
+    font-size: 4.5rem;
+    margin: 20px 0;
 }
 
 .gallery-hero p {
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.85);
     line-height: 1.8;
+    font-size: 1.15rem;
 }
 
 .gallery-hero-content {
