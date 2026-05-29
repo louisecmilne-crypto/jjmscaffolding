@@ -357,16 +357,31 @@
 
         <div class="file-upload-wrapper">
 
-    <label for="photos">
-        Upload Photos (optional)
+    <label for="photos" class="upload-box">
+
+        <span class="upload-icon">📷</span>
+
+        <span class="upload-title">
+            Upload Photos (Optional)
+        </span>
+
+        <span class="upload-subtext">
+            Click to add photos of the job
+        </span>
+
+        <span id="file-name" class="file-name">
+            No files selected
+        </span>
+
     </label>
 
     <input
         type="file"
         id="photos"
-        name="attachment []"
+        name="attachment[]"
         accept="image/*"
         multiple
+        hidden
     >
 
 </div>
