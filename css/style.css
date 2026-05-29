@@ -316,6 +316,15 @@ body {
         );
     }
 
+    .trust-card {
+    padding: 28px 22px;
+}
+
+.trust-icon {
+    font-size: 1.8rem;
+    margin-bottom: 14px;
+}
+
     /* HERO CONTENT */
 
     .hero-content {
@@ -389,15 +398,16 @@ body {
 
 /* TRUST CARD HOVER */
 .trust-card {
-    transition: transform 0.3s ease,
-                border-color 0.3s ease,
-                box-shadow 0.3s ease;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 40px 30px;
 }
 
 .trust-card:hover {
     transform: translateY(-8px);
     border-color: #3b5ea7;
-    box-shadow: 0 15px 35px rgba(59,94,167,0.15);
+    box-shadow: 0 20px 40px rgba(59,94,167,0.18);
 }
 
 .trust-card:hover .trust-icon {
@@ -409,6 +419,10 @@ body {
     color: #3b5ea7;
     margin-bottom: 18px;
     transition: transform 0.3s ease;
+}
+
+.trust-section {
+    padding: 50px 0;
 }
 
 /* SILVER DIVIDER */
@@ -461,6 +475,62 @@ section {
 .about-image img {
     width: 100%;
     border: 1px solid silver;
+}
+
+/* ==========================
+   FEATURED PROJECTS
+========================== */
+
+.featured-projects {
+    padding: 90px 0;
+    background: #05070a;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.project-card {
+    background: #0a0d12;
+    border: 1px solid rgba(255,255,255,0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: #3b5ea7;
+    box-shadow: 0 15px 35px rgba(59,94,167,0.15);
+}
+
+.project-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.project-content {
+    padding: 24px;
+}
+
+.project-content h3 {
+    margin-bottom: 12px;
+}
+
+.project-content p {
+    color: #b8b8b8;
+    line-height: 1.6;
+}
+
+.projects-button {
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* SERVICES */
@@ -531,6 +601,14 @@ section {
         max-height: 320px;
         object-fit: contain;
         background: #05070a;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card img {
+        height: 220px;
     }
 }
 
