@@ -837,7 +837,10 @@ footer a {
     border-top: 1px solid rgba(192,192,192,0.25);
     position: relative;
     background:
-    linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.9)),
+    linear-gradient(
+    rgba(0,0,0,0.93),
+    rgba(5,8,20,0.95)
+    ),
     url('/images/project1.jpg');
     background-size: cover;
     background-position: center;
@@ -877,6 +880,12 @@ footer a {
     border: 1px solid rgba(192,192,192,0.45);
     border-radius: 12px;
     padding: 35px;
+}
+
+.quote-form {
+    background: rgba(10, 15, 30, 0.55);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.08);
 }
 
 .contact-card h3 {
@@ -1057,7 +1066,7 @@ footer a {
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 16px;
-    padding: 35px;
+    padding: 45px 20px;
     margin-bottom: 35px;
     text-align: center;
 }
