@@ -475,6 +475,8 @@ section {
 .about-image img {
     width: 100%;
     border: 1px solid silver;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* ==========================
@@ -531,6 +533,12 @@ section {
 .projects-button {
     text-align: center;
     margin-top: 50px;
+}
+
+.about,
+.featured-projects,
+.services {
+    padding: 60px 0;
 }
 
 /* SERVICES */
@@ -604,11 +612,16 @@ section {
     }
 
     .projects-grid {
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 18px;
     }
 
     .project-card img {
-        height: 220px;
+    height: 220px;
+    }
+    .section-header h2 {
+    font-size: 2.2rem;
+    line-height: 1.1;
     }
 }
 
