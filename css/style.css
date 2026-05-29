@@ -835,6 +835,22 @@ footer a {
     padding: 75px 0;
     text-align: center;
     border-top: 1px solid rgba(192,192,192,0.25);
+    position: relative;
+    background:
+    linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.9)),
+    url('/images/project1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-content {
+    max-width: 900px;
+    margin: 0 auto 50px;
+    padding: 50px;
+    background: rgba(20, 30, 60, 0.25);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
 }
 
 .contact-section h2 {
