@@ -913,6 +913,21 @@ footer a {
     width: 100%;
 }
 
+.quote-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: rgba(255,255,255,0.03);
+    color: white;
+    cursor: pointer;
+}
+
+.quote-form select option {
+    background: #05070a;
+    color: white;
+    padding: 12px;
+}
+
 /* MOBILE */
 
 @media (max-width: 768px) {
