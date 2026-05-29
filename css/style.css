@@ -320,7 +320,7 @@ body {
     padding: 28px 22px;
 }
 
-.trust-icon {
+    .trust-icon {
     font-size: 1.8rem;
     margin-bottom: 14px;
 }
@@ -335,29 +335,28 @@ body {
 
     /* HERO CONTENT */
 
+    @media (max-width: 768px) {
+
     .hero-content {
-    padding: 22px 22px 15px;
-}
+        padding: 30px 22px 25px;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+        line-height: 1.05;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
 
     .hero-tag {
         font-size: .78rem;
         letter-spacing: 2px;
         margin-bottom: 14px;
-    }
-
-    .hero h1 {
-        font-size: 1.8rem;
-        line-height: 1.02;
-        margin-bottom: 18px;
-    }
-
-    .hero p {
-        font-size: 1rem;
-        color: #c4c7ce;
-        line-height: 1.75;
-        margin-bottom: 24px;
-    }
-
+}
+    
     /* BUTTONS STACKED */
     .hero-buttons {
         flex-direction: column;
@@ -819,4 +818,4 @@ footer a {
     line-height: 1.5;
     padding: 0 15px;
     }
-}
+}    
