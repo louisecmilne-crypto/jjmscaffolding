@@ -327,9 +327,10 @@ body {
 
     .feature-card,
     .service-card,
-    .project-card {
-        border: 1px solid rgba(192,192,192,0.55);
-    }
+    .project-card,
+    .trust-card {
+    border: 1px solid rgba(192,192,192,0.8);
+}
 
     /* HERO CONTENT */
 
@@ -450,8 +451,10 @@ body {
 
 /* SILVER DIVIDER */
 .section-divider {
-    border-top: 1px solid #8b9097;
-    opacity: .3;
+    width: 100%;
+    height: 1px;
+    background: rgba(192, 192, 192, 0.45);
+    margin: 0;
 }
 
 /* SECTION SPACING */
