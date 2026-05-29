@@ -771,6 +771,7 @@ footer a {
 .footer-brand img {
     width: 140px;
     margin-bottom: 20px;
+    max-width: 320px;
 }
 
 .footer-brand p,
