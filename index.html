@@ -355,35 +355,22 @@
             <option>Emergency Scaffolding</option>
         </select>
 
-        <div class="file-upload-wrapper">
-
-    <label for="photos" class="upload-box">
-
-        <span class="upload-icon">📷</span>
-
-        <span class="upload-title">
-            Upload Photos (Optional)
-        </span>
-
-        <span class="upload-subtext">
-            Click to add photos of the job
-        </span>
-
-        <span id="file-name" class="file-name">
-            No files selected
-        </span>
-
+        <div class="photo-upload">
+    <label for="photos">
+        Upload Photos (optional)
     </label>
 
     <input
         type="file"
         id="photos"
-        name="attachment[]"
-        accept="image/*"
+        name="attachments"
         multiple
-        hidden
+        accept="image/*"
     >
 
+    <p id="file-name">
+        No files selected
+    </p>
 </div>
 
         <textarea
