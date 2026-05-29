@@ -269,46 +269,78 @@ body {
 
 @media (max-width: 768px) {
 
-    .hero-image img {
-        height: 30vh;
-        object-position: center top;
+    /* NAV */
+    .logo img {
+        height: 80px;
+        width: auto;
     }
 
+    /* HERO IMAGE */
+    .hero-image img {
+        height: 24vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .hero-image::before {
+        background:
+        linear-gradient(to bottom,
+            rgba(5,7,10,.1),
+            rgba(5,7,10,.45)
+        ),
+
+        linear-gradient(to left,
+            rgba(5,7,10,.2),
+            transparent 20%
+        ),
+
+        linear-gradient(to right,
+            rgba(5,7,10,.2),
+            transparent 20%
+        );
+    }
+
+    /* CONTENT */
     .hero-content {
-        padding: 35px 24px 45px;
+        padding: 28px 22px 35px;
     }
 
     .hero-tag {
-        font-size: .85rem;
+        font-size: .8rem;
         letter-spacing: 2px;
-        margin-bottom: 18px;
+        margin-bottom: 15px;
     }
 
     .hero h1 {
-        font-size: 2.15rem;
-        line-height: 1.02;
-        margin-bottom: 22px;
+        font-size: 1.95rem;
+        line-height: 1.05;
+        margin-bottom: 20px;
     }
 
     .hero p {
         font-size: 1rem;
-        color: #b9bcc5;
-        line-height: 1.9;
-        margin-bottom: 28px;
+        color: #bfc3cb;
+        line-height: 1.7;
+        margin-bottom: 24px;
     }
 
+    /* BUTTONS */
     .hero-buttons {
-        flex-direction: column;
-        align-items: center;
-        gap: 14px;
+        gap: 12px;
     }
 
     .primary-btn,
     .secondary-btn {
         width: 100%;
-        max-width: 300px;
+        max-width: 290px;
+        padding: 16px 22px;
         text-align: center;
-        padding: 18px 24px;
+    }
+
+    /* REMOVE BIG GAP BELOW HERO */
+    .hero {
+        margin-bottom: 0;
+        min-height: auto;
     }
 }
 
