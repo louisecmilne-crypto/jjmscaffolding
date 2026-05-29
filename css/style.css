@@ -672,19 +672,13 @@ section {
         #05070a,
         #10192b
     );
-    text-align: center;
 
-    .cta-content p {
+    text-align: center;
+}
+
+.cta-content p {
     margin-bottom: 25px;
     line-height: 1.7;
-}
-
-    @media (max-width: 768px) {
-
-   .cta-content .primary-btn {
-    margin-top: 30px;
-    display: inline-block;  
-}
 }
 
 /* FOOTER */
@@ -735,6 +729,12 @@ footer a {
     .footer-grid {
         grid-template-columns: 1fr;
     }
+
+    .cta-content .primary-btn {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
 }
 
 /* FOOTER */
