@@ -1004,3 +1004,64 @@ footer a {
         grid-template-columns: 1fr;
     }
 }
+
+/* WHATSAPP FLOAT BUTTON */
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 65px;
+    height: 65px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.08);
+}
+
+/* WHATSAPP QUOTE SECTION */
+
+.whatsapp-quote-box {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.whatsapp-quote-box h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.whatsapp-quote-box p {
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 25px;
+}
+
+.whatsapp-quote-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 16px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.whatsapp-quote-btn:hover {
+    transform: translateY(-2px);
+}
