@@ -79,8 +79,8 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
-    border-top: 1px solid rgba(192,192,192,.30);
-    border-bottom: 1px solid rgba(192,192,192,.30);
+    border-top: 1px solid rgba(192,192,192,.45);
+    border-bottom: 1px solid rgba(192,192,192,.45);
 }
 
 .hero-grid {
@@ -462,7 +462,8 @@ section {
 }
 
 .trust-card {
-    border: 1px solid rgba(192,192,192,.2);
+    border: 1px solid rgba(192,192,192,.45);
+    box-shadow: 0 0 0 1px rgba(255,255,255,.04);
     padding: 30px;
     text-align: center;
 }
@@ -568,7 +569,8 @@ section {
 
 .service-card {
     background: #0b1018;
-    border: 1px solid rgba(192,192,192,.30);
+    border: 1px solid rgba(192,192,192,.45);
+    box-shadow: 0 0 0 1px rgba(255,255,255,.04);
     padding: 40px;
     transition: .3s;
 }
@@ -616,7 +618,8 @@ section {
 
 .project-card {
     overflow: hidden;
-    border: 1px solid rgba(192,192,192,.2);
+    border: 1px solid rgba(192,192,192,.45);
+    box-shadow: 0 0 0 1px rgba(255,255,255,.04);
     transition: .3s ease;
 }
 
