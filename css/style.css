@@ -1126,18 +1126,27 @@ footer a {
 
 .gallery-hero {
     position: relative;
-    height: 55vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 120px 20px;
+    padding: 140px 20px 90px;
     background:
         linear-gradient(rgba(5,10,20,0.82),
-        rgba(5,10,20,0.92)),
-        url('../images/hero.jpg');
+        rgba(5,10,20,0.88)),
+        url("../images/gallery/project1.jpg");
     background-size: cover;
     background-position: center;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.gallery-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.gallery-hero p {
+    max-width: 800px;
+    margin: auto;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.8;
 }
 
 .gallery-hero-content {
@@ -1150,11 +1159,6 @@ footer a {
     letter-spacing: 4px;
     margin-bottom: 15px;
     font-size: 0.9rem;
-}
-
-.gallery-hero h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
 }
 
 .gallery-description {
