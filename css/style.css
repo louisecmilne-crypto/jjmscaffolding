@@ -1138,6 +1138,10 @@ footer a {
     background-size: cover;
     background-position: center;
     border-bottom: 1px solid rgba(255,255,255,0.08);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery-hero h1 {
