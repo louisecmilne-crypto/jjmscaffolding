@@ -559,9 +559,19 @@ section {
     line-height: 1.6;
 }
 
-.projects-button {
-    text-align: center;
-    margin-top: 50px;
+.btn-primary {
+    display: inline-block;
+    background: #2f4fa3;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
 }
 
 .about,
@@ -1151,15 +1161,16 @@ footer a {
 
 .gallery-hero p {
     max-width: 850px;
-    margin: auto;
+    margin: 0 auto;
     color: rgba(255,255,255,0.85);
     line-height: 1.8;
     font-size: 1.15rem;
 }
 
 .gallery-hero-content {
-    max-width: 800px;
+    max-width: 900px;
     z-index: 2;
+    text-align: center;
 }
 
 .gallery-subtitle {
