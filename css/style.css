@@ -805,12 +805,12 @@ footer a {
 }
 
 .instagram-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 10px;
     color: #3b5ea7;
     text-decoration: none;
-    margin-bottom: 15px;
+    margin: 15px 0;
     transition: 0.3s ease;
 }
 
@@ -818,14 +818,9 @@ footer a {
     color: #3b5ea7;
 }
 
-.instagram-link i {
-    font-size: 1.3rem;
-}
-
 .instagram-qr {
-    width: 120px;
+    width: 110px;
     border-radius: 12px;
-    margin-top: 10px;
 }
 
 .footer h4 {
