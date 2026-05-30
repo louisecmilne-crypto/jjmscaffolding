@@ -1219,18 +1219,17 @@ footer a {
 }
 
 .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    column-count: 3;
+    column-gap: 25px;
     padding: 60px 8%;
 }
 
 .gallery-item {
+    break-inside: avoid;
+    margin-bottom: 25px;
     overflow: hidden;
     border-radius: 24px;
-    border: 1px solid rgba(255,255,255,0.08);
     transition: 0.3s ease;
-    align-self: start;
 }
 
 .gallery-item:hover {
@@ -1260,4 +1259,14 @@ footer a {
     display: block;
     border-radius: 20px;
 }
+
+    .gallery-grid {
+        column-count: 1;
+    }
+}
+
+@media (max-width: 992px) {
+    .gallery-grid {
+        column-count: 2;
+    }
 }
