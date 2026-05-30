@@ -800,6 +800,34 @@ footer a {
     flex-direction: column;
 }
 
+.footer-social {
+    margin-top: 25px;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+}
+
+.instagram-link:hover {
+    color: #f24fa3;
+}
+
+.instagram-link i {
+    font-size: 1.3rem;
+}
+
+.instagram-qr {
+    width: 120px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
 .footer h4 {
     margin-bottom: 20px;
     font-size: 1.1rem;
