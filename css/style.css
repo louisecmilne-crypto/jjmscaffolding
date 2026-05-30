@@ -808,14 +808,14 @@ footer a {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    color: white;
+    color: #3b5ea7;
     text-decoration: none;
     margin-bottom: 15px;
     transition: 0.3s ease;
 }
 
 .instagram-link:hover {
-    color: #f24fa3;
+    color: #3b5ea7;
 }
 
 .instagram-link i {
